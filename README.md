@@ -1,6 +1,18 @@
 # gasstation-price-analysis
 
+## Analysis
 
+The data was collected using a separate ETL pipeline repository and stored in a 
+PostgreSQL database. The analysis covers fuel prices (Diesel, E5, E10) from 96 
+gas stations in the Stuttgart area between February and March 2026.
+
+The analysis includes:
+- Average price trend over the entire period
+- Price development by time of day
+- Price comparison between brands
+- Geographic distribution of gas stations
+
+> The analysis is still in progress – more insights coming soon.
 
 ## Preisverlauf
 
