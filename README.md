@@ -54,10 +54,10 @@ dtype: int64
 Data Overview
 We queried the database for all records and analyzed the following key metrics:
 
--Total datasets: 188,640
--Time period: February 15, 2026, to March 28, 2026 (42 days)
--Unique gas stations: 96
--Unique days with data: 42
+- **Total datasets:** 188,640
+- **Time period:** February 15, 2026, to March 28, 2026 (42 days)
+- **Unique gas stations:** 96
+- **Unique days with data:** 42
 
 Data Collection Frequency
 The data was collected at a high frequency to capture real-time fluctuations in fuel prices. Each day, we gathered:
