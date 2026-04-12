@@ -62,9 +62,9 @@ We queried the database for all records and analyzed the following key metrics:
 Data Collection Frequency
 The data was collected at a high frequency to capture real-time fluctuations in fuel prices. Each day, we gathered:
 
--Full days with complete data: 42 days
--Data points per full day: 4,608
--Data points per 30-minute interval: 96 gas stations × 1 data point per station per 30 minutes
+- **Full days with complete data:** 42 days
+- **Data points per full day:** 4,608
+- **Data points per 30-minute interval:** 96 gas stations × 1 data point per station per 30 minutes
 This granularity ensures that we can analyze:
 
 Daily price trends
