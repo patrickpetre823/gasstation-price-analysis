@@ -103,6 +103,13 @@ diesel	1.9037	1.9067	0.16
 ```
 The deviations are well below 1%, confirming that Forward Fill does not significantly distort the results.
 
+Geographical Data
+
+Also I want to check the geographical data:
+
+<img src="assets/karte.jpg" width="1920" height="1920"/>
+
+
 ## Preisverlauf
 
 <img src="assets/preisverlauf.png" width="1200" height="400"/>
