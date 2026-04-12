@@ -65,16 +65,59 @@ The data was collected at a high frequency to capture real-time fluctuations in 
 - **Full days with complete data:** 42 days
 - **Data points per full day:** 4,608
 - **Data points per 30-minute interval:** 96 gas stations × 1 data point per station per 30 minutes
-This granularity ensures that we can analyze:
 
-Daily price trends
-Hourly variations
-Price changes between different gas stations and brands
-Observations
 
-The dataset covers a consistent period of 42 days, allowing for robust time-series analysis.
-The high frequency of data collection (every 30 minutes) provides a detailed view of price dynamics, enabling us to detect even subtle changes in fuel prices.
-The 96 gas stations span the Stuttgart area, offering a comprehensive geographic distribution for comparison.
+Checking for missing values:
+
+```
+Missing values:
+id                  0
+tankstellen_id      0
+diesel             62
+e5                302
+e10                22
+isopen              0
+retrieval_time      0
+retrieval_date      0
+dtype: int64
+```
+
+Checking which values are missing at which gas station, we realize it is only 2 gas stations having NaN values.
+```
+Missing E5-values per gas station:
+name                      brand        
+Access Station Stuttgart  Access           281
+MTS Waschpark             SB Tankstelle     21
+dtype: int64
+
+Missing E10-values per gas station:
+name           brand        
+MTS Waschpark  SB Tankstelle    22
+dtype: int64
+
+Missing Diesel-values per gas station:
+name           brand        
+MTS Waschpark  SB Tankstelle    62
+dtype: int64
+```
+
+```
+	E5	E10	Diesel
+retrieval_date			
+2026-02-18	21	0	0
+2026-02-19	48	0	0
+2026-02-20	48	0	0
+2026-02-21	48	0	0
+2026-02-22	48	0	0
+2026-02-23	48	0	0
+2026-02-24	20	0	0
+2026-03-01	12	13	16
+2026-03-02	9	9	9
+2026-03-20	0	0	7
+2026-03-21	0	0	11
+2026-03-22	0	0	10
+2026-03-23	0	0	9
+```
 
 
 
