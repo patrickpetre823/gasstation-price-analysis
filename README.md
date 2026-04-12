@@ -107,7 +107,7 @@ Geographical Data
 
 Also I want to check the geographical data:
 
-<img src="assets/karte.jpg" width="1200" height="1200"/>
+<img src="assets/map2.png" width="1200" height="1200"/>
 
 
 ## Preisverlauf
