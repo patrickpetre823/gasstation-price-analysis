@@ -20,7 +20,7 @@ When starting the system, you first have to connect to the db again using "docke
 
 To gain a deeper understanding of the collected data, we performed an initial exploration. This helps us identify patterns, validate data quality, and ensure the dataset is ready for further analysis.
 
-"""
+```
 df = pd.read_sql("SELECT * FROM abfragen", engine)
 
 # Overview
@@ -32,10 +32,10 @@ print(f"Number of unique days: {df['retrieval_date'].nunique()}")
 # Datasets per day
 print(f"\nDatasets per day:")
 print(df.groupby('retrieval_date').size())
-"""
+```
 
 Looking at the output:
-"""
+```
 Total datasets: 188640
 Period: 2026-02-15 to 2026-03-28
 Number of unique gas stations: 96
@@ -49,7 +49,7 @@ retrieval_date
 2026-03-27    4608
 2026-03-28    1824
 dtype: int64
-"""
+```
 
 Data Overview
 We queried the database for all records and analyzed the following key metrics:
