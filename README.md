@@ -52,7 +52,7 @@ retrieval_date      0
 dtype: int64
 ```
 
-During my data exploration, I noticed that some fuel price records contained missing values (NaN). To ensure the integrity of my analysis, I investigated which gas stations were affected and when these gaps occurred.
+Checking which gas stations were affected and when these gaps occurred.
 
 
 ```
@@ -90,25 +90,16 @@ retrieval_date
 2026-03-22	0	0	10
 2026-03-23	0	0	9
 ```
-This was a crucial insight: the missing values were not random but concentrated on just two stations.
-Temporal Pattern of Missing Values
-I also analyzed when these missing values occurred. The gaps were not continuous, but appeared in short, isolated time windows across a few days:
+The missing values are not random but concentrated on just two stations.
+The gaps were not continuous, but appeared in short, isolated time windows across a few days.
 
-Given that this was time-series data (fuel prices), I needed a method to handle the missing values that would:
-
-Preserve the temporal structure of the data.
-Minimize the impact on averages and trends.
-Keep the process simple and transparent.
-I decided to use Forward Fill for the following reasons:
+Given that this was time-series data, I decided to use a Forward Fill method to fill these values, since fuel prices typically change gradually, making it reasonable to assume that the last observed price is the most accurate estimate for the missing values. This approach preserves the temporal structure of the data while minimizing the impact on the overall trend and averages.
 
 
-Realistic Assumption: Fuel prices typically change gradually. Filling missing values with the last observed price is a realistic and logical approach for this type of data.
+
 
 
 Minimal Impact: I compared the average fuel prices with and without Forward Fill. The deviations were negligible:
-
-
-
 
 ```
 	With NaN (ignored)	With Forward Fill	Deviation (%)
