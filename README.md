@@ -1,6 +1,6 @@
 # gasstation-price-analysis
 
-## Analysis
+
 
 The data was collected using a separate ETL pipeline repository and stored in a 
 PostgreSQL database. The analysis covers fuel prices (Diesel, E5, E10) from 96 
@@ -104,12 +104,41 @@ The deviations are well below 1%, confirming that Forward Fill does not signific
 
 Geographical Data
 
-Also I want to check the geographical data:
+Also I want to check the geographical data and the different gas station brands
 
 <img src="assets/map2.png" width="1200" height="1200"/>
 
 
-## Preisverlauf
+|    | brand                            |   anzahl |
+|---:|:---------------------------------|---------:|
+|  0 | Shell                            |       18 |
+|  1 | ARAL                             |       16 |
+|  2 | ESSO                             |       12 |
+|  3 | AGIP ENI                         |        9 |
+|  4 | JET                              |        9 |
+|  5 | AVIA                             |        8 |
+|  6 | AVIA XPress                      |        3 |
+|  7 | TotalEnergies                    |        3 |
+|  8 | RAN                              |        3 |
+|  9 | Supermarkt-Tankstelle            |        3 |
+| 10 | SB                               |        1 |
+| 11 | Freie Tankstelle                 |        1 |
+| 12 | Mr. Wash Autoservice AG          |        1 |
+| 13 | Sprint                           |        1 |
+| 14 | Access                           |        1 |
+| 15 | SCHARR-Tankstelle                |        1 |
+| 16 | ORLEN Express                    |        1 |
+| 17 | BFT                              |        1 |
+| 18 | HEM                              |        1 |
+| 19 | SB Tankstelle                    |        1 |
+| 20 | freie Tankstelle                 |        1 |
+| 21 | MTB Automatentankstelle Fellbach |        1 |
+
+## Analysis
+
+
+
+# Preisverlauf
 
 <img src="assets/preisverlauf.png" width="1200" height="400"/>
 
