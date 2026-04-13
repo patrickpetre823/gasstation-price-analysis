@@ -50,24 +50,22 @@ Checking which gas stations were affected and when these gaps occurred.
 
 
 
-Missing E5-values per gas station:
-|                                        |   0 |
+
+|Missing E5-values per gas station       |     |
 |:---------------------------------------|----:|
 | ('Access Station Stuttgart', 'Access') | 281 |
 | ('MTS Waschpark', 'SB Tankstelle')     |  21 |
 
-Missing E10-values per gas station:
-|                                    |   0 |
+|Missing E10-values per gas station  |     |
 |:-----------------------------------|----:|
 | ('MTS Waschpark', 'SB Tankstelle') |  22 |
 
 Missing Diesel-values per gas station:
-|                                    |   0 |
-|:-----------------------------------|----:|
-| ('MTS Waschpark', 'SB Tankstelle') |  62 |
+|Missing Diesel-values per gas station |   0 |
+|:-------------------------------------|----:|
+| ('MTS Waschpark', 'SB Tankstelle')   |  62 |
 
 
-```
 | retrieval_date   |   E5 |   E10 |   Diesel |
 |:-----------------|-----:|------:|---------:|
 | 2026-02-18       |   21 |     0 |        0 |
@@ -83,7 +81,7 @@ Missing Diesel-values per gas station:
 | 2026-03-21       |    0 |     0 |       11 |
 | 2026-03-22       |    0 |     0 |       10 |
 | 2026-03-23       |    0 |     0 |        9 |
-```
+
 
 The missing values are not random but concentrated on just two stations.
 The gaps were not continuous, but appeared in short, isolated time windows across a few days.
