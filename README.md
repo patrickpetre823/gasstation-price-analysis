@@ -94,12 +94,12 @@ Given that this was time-series data, I decided to use a Forward Fill method to 
 
 Minimal Impact: I compared the average fuel prices with and without Forward Fill. The deviations were negligible:
 
-```
-	With NaN (ignored)	With Forward Fill	Deviation (%)
-e5	1.8951	1.8937	-0.07
-e10	1.8353	1.8337	-0.09
-diesel	1.9037	1.9067	0.16
-```
+|        |   With NaN (ignored) |   With Forward Fill |   Deviation (%) |
+|:-------|---------------------:|--------------------:|----------------:|
+| e5     |               1.8951 |              1.8937 |           -0.07 |
+| e10    |               1.8353 |              1.8337 |           -0.09 |
+| diesel |               1.9037 |              1.9067 |            0.16 |
+
 The deviations are well below 1%, confirming that Forward Fill does not significantly distort the results.
 
 Geographical Data
