@@ -49,7 +49,7 @@ dtype: int64
 Checking which gas stations were affected and when these gaps occurred.
 
 
-```
+
 Missing E5-values per gas station:
 |                                        |   0 |
 |:---------------------------------------|----:|
@@ -65,7 +65,7 @@ Missing Diesel-values per gas station:
 |                                    |   0 |
 |:-----------------------------------|----:|
 | ('MTS Waschpark', 'SB Tankstelle') |  62 |
-```
+
 
 ```
 | retrieval_date   |   E5 |   E10 |   Diesel |
