@@ -51,20 +51,20 @@ Checking which gas stations were affected and when these gaps occurred.
 
 ```
 Missing E5-values per gas station:
-name                      brand        
-Access Station Stuttgart  Access           281
-MTS Waschpark             SB Tankstelle     21
-dtype: int64
+|                                        |   0 |
+|:---------------------------------------|----:|
+| ('Access Station Stuttgart', 'Access') | 281 |
+| ('MTS Waschpark', 'SB Tankstelle')     |  21 |
 
 Missing E10-values per gas station:
-name           brand        
-MTS Waschpark  SB Tankstelle    22
-dtype: int64
+|                                    |   0 |
+|:-----------------------------------|----:|
+| ('MTS Waschpark', 'SB Tankstelle') |  22 |
 
 Missing Diesel-values per gas station:
-name           brand        
-MTS Waschpark  SB Tankstelle    62
-dtype: int64
+|                                    |   0 |
+|:-----------------------------------|----:|
+| ('MTS Waschpark', 'SB Tankstelle') |  62 |
 ```
 
 ```
