@@ -6,6 +6,8 @@ The data was collected using a separate ETL pipeline repository and stored in a
 PostgreSQL database. The analysis covers fuel prices (Diesel, E5, E10) from 96 
 gas stations in the Stuttgart area between February and March 2026.
 
+The goal of this analysis is to find out, how the avg. fuel price changes over time and when it is the best time to fuel up your car. 
+How does the weekday, time of the day and the choice of gas station impact the price you pay for gas?
 
 > The analysis is still in progress – more insights coming soon.
 
@@ -108,6 +110,9 @@ Also I want to check the geographical data and the different gas station brands
 
 <img src="assets/map2.png" width="1200" height="1200"/>
 
+Checking for different brands we see that there are are several big brands with a high number of gasstations in Suttgart, like Shell and Aral.
+
+However there also small and unknown brands with just one gasstation. We will check later how prices differ from the big brands to small ones.
 
 |    | brand                            |   anzahl |
 |---:|:---------------------------------|---------:|
@@ -134,11 +139,10 @@ Also I want to check the geographical data and the different gas station brands
 | 20 | freie Tankstelle                 |        1 |
 | 21 | MTB Automatentankstelle Fellbach |        1 |
 
+<img src="assets/brand_counts.png" width="1200" height="400"/>
+
 ## Analysis
 
-
-
-# Preisverlauf
 
 <img src="assets/preisverlauf.png" width="1200" height="400"/>
 
@@ -147,4 +151,4 @@ Also I want to check the geographical data and the different gas station brands
 
 <img width="1912" height="885" alt="newplot" src="https://github.com/user-attachments/assets/416aed3a-6b4d-4a92-875d-10447aa11cb5" />
 
-<img src="assets/brand_counts.png" width="1200" height="400"/>
+
