@@ -150,7 +150,13 @@ On 28.02. the US and Isreal attacked Iran, which led to a massiv jump in fuel pr
 
 <img src="assets/preisverlauf.png" width="1200" height="400"/>
 
+If we compare the timeframe before the 28.02. with the one after the 28.02. we see that the prices of fuel have gone up atleast 14%. The prices of diesel grew the most, from 1.72€ to 2.15€, which is a raise of 24.68%. This is mostly because diesel is more crisis-prone, plays a larger role in industry, is often used as a substitute for gas, and Germany relies more on diesel imports, whereas domestic refineries can cover much of the gasoline demand.
 
+| Time period     |   Ø Diesel (€) |   Ø E5 (€) |   Ø E10 (€) |
+|:----------------|---------------:|-----------:|------------:|
+| 15.02. - 28.02. |          1.724 |      1.802 |       1.744 |
+| 28.02. - 02.04. |          2.15  |      2.057 |       1.996 |
+| Deviation (%)   |         24.683 |     14.167 |      14.469 |
 
 However, because this is something that we do not have any control over, we will analyse the enitre timeframe as it is, to find out what other factor effect the gas prices.
 
@@ -161,9 +167,22 @@ If we look at the average price of fuel per weekday we will get a diagramm that 
 
 <img src="assets/preisprowochentag.png" width="1200" height="400"/>
 
-However, if we look at the relative change compared to the average price, we see that the price of fuel is the cheapest on Sunday and the msot expensive on thursday. 
+If we look at the relative change compared to the average price, we see that the price of fuel is the cheapest on Sunday and Monday and the msot expensive on thursday. 
+
+Howeber we should look at this later on in more detail as to find out whether just the average price is the lowest/highest on those days or they really have the cheapest or most expensive prices per week.
 
 <img src="assets/preisprowochentagprozent.png" width="1200" height="400"/>
+
+| Wochentag   |   Ø Diesel (€) |   Ø E5 (€) |   Ø E10 (€) |   Diesel Abw. (%) |   E5 Abw. (%) |   E10 Abw. (%) |
+|:------------|---------------:|-----------:|------------:|------------------:|--------------:|---------------:|
+| Monday      |          1.984 |      1.961 |       1.902 |            -1.27  |        -0.594 |         -0.6   |
+| Tuesday     |          2     |      1.976 |       1.917 |            -0.483 |         0.186 |          0.185 |
+| Wednesday   |          2.007 |      1.976 |       1.916 |            -0.134 |         0.19  |          0.181 |
+| Thursday    |          2.016 |      1.974 |       1.915 |             0.332 |         0.088 |          0.082 |
+| Friday      |          2.041 |      1.984 |       1.924 |             1.593 |         0.567 |          0.58  |
+| Saturday    |          2.032 |      1.982 |       1.922 |             1.152 |         0.475 |          0.484 |
+| Sunday      |          1.985 |      1.955 |       1.896 |            -1.19  |        -0.912 |         -0.912 |
+| Gesamt      |          2.009 |      1.973 |       1.913 |             0     |         0     |          0     |
 
 ### Time of the day
 
