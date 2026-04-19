@@ -196,8 +196,6 @@ It is noticeable that the price is constanly going up and down, creating a local
 
 <img src="assets/avg_price_3stationsover_day_complete.png" width="1200" height="400"/>
 
-<img width="1200" height="450" alt="image" src="https://github.com/user-attachments/assets/769e4a4c-a685-402e-95d4-511fb56ae94a" />
 
-<img width="1912" height="885" alt="newplot" src="https://github.com/user-attachments/assets/416aed3a-6b4d-4a92-875d-10447aa11cb5" />
 
 
