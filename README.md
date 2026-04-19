@@ -173,7 +173,7 @@ Howeber we should look at this later on in more detail as to find out whether ju
 
 <img src="assets/preisprowochentagprozent.png" width="1200" height="400"/>
 
-| Wochentag   |   Ø Diesel (€) |   Ø E5 (€) |   Ø E10 (€) |   Diesel Abw. (%) |   E5 Abw. (%) |   E10 Abw. (%) |
+| Weekday     |   Ø Diesel (€) |   Ø E5 (€) |   Ø E10 (€) |   Diesel      (%) |   E5      (%) |   E10      (%) |
 |:------------|---------------:|-----------:|------------:|------------------:|--------------:|---------------:|
 | Monday      |          1.984 |      1.961 |       1.902 |            -1.27  |        -0.594 |         -0.6   |
 | Tuesday     |          2     |      1.976 |       1.917 |            -0.483 |         0.186 |          0.185 |
@@ -190,8 +190,11 @@ Next I look at the average price of fuel over the time of the day. It is clear t
 
 It will be the cheapest at around 12:00 and in the evening at around 20:00.
 
-<img src="assets/avg_price_over_day.png" width="1200" height="400"/>
+<img src="assets/avg_price_over_day_complete.png" width="1200" height="400"/>
 
+It is noticeable that the price is constanly going up and down, creating a local minimum and maximum every full hour. To make sure this is nto a error in the data or API call, I looked at 3 diffrent gas stations and their average price of E5 over the course of a day. 
+
+<img src="assets/avg_price_3stationsover_day_complete.png" width="1200" height="400"/>
 
 <img width="1200" height="450" alt="image" src="https://github.com/user-attachments/assets/769e4a4c-a685-402e-95d4-511fb56ae94a" />
 
