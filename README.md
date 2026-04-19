@@ -143,8 +143,35 @@ However there also small and unknown brands with just one gasstation. We will ch
 
 ## Analysis
 
+When first looking at the average price of fuel over the entire time I collected data, the price jump of fuel is obvious after the start of the war in Iran. 
+
+On 28.02. the US and Isreal attacked Iran, which led to a massiv jump in fuel prices. 
+
 
 <img src="assets/preisverlauf.png" width="1200" height="400"/>
+
+
+
+However, because this is something that we do not have any control over, we will analyse the enitre timeframe as it is, to find out what other factor effect the gas prices.
+
+
+### Weekday
+
+If we look at the average price of fuel per weekday we will get a diagramm that is looking relatively even.
+
+<img src="assets/preisprowochentag.png" width="1200" height="400"/>
+
+However, if we look at the relative change compared to the average price, we see that the price of fuel is the cheapest on Sunday and the msot expensive on thursday. 
+
+<img src="assets/preisprowochentagprozent.png" width="1200" height="400"/>
+
+### Time of the day
+
+Next I look at the average price of fuel over the time of the day. It is clear that you should avoid the early mornings, around 7:00 - 8:00 o'clock as the prices reach their maximum values here. 
+
+It will be the cheapest at around 12:00 and in the evening at around 20:00.
+
+<img src="assets/avg_price_over_day.png" width="1200" height="400"/>
 
 
 <img width="1200" height="450" alt="image" src="https://github.com/user-attachments/assets/769e4a4c-a685-402e-95d4-511fb56ae94a" />
