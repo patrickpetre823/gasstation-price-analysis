@@ -17,7 +17,7 @@ How does the weekday, time of the day and the choice of gas station impact the p
 To gain a deeper understanding of the collected data, we performed an initial exploration. This helps us identify patterns, validate data quality, and ensure the dataset is ready for further analysis.
 
 
-Data Overview
+### Data Overview
 We queried the database for all records and analyzed the following key metrics:
 
 - **Total datasets:** 188,640
@@ -32,6 +32,15 @@ The data was collected at a high frequency to capture real-time fluctuations in 
 - **Data points per full day:** 4,608
 - **Data points per 30-minute interval:** 96 gas stations × 1 data point per station per 30 minutes
 
+### Date Error
+
+When exploring my data, I noticed something strange. I started my dag runs on 15.02. at 11:47. However I had data from that day at 00:00 and 00:30. 
+I checked my dag file and noticed I only used Europe/Berlin Timezone for setting the time but not for the date. The retrieval date is then beeing set, using UTC, which is 1 hour behind, resulting in the wrong date beeing set at retrieval time of 00:00, and 00:30. 
+
+To fix this, I changed the date beeing set at these times to +1 day. 
+
+
+### Missing values
 
 Checking for missing values:
 
@@ -70,19 +79,19 @@ Missing Diesel-values per gas station:
 
 | retrieval_date   |   E5 |   E10 |   Diesel |
 |:-----------------|-----:|------:|---------:|
-| 2026-02-18       |   21 |     0 |        0 |
+| 2026-02-18       |   20 |     0 |        0 |
 | 2026-02-19       |   48 |     0 |        0 |
 | 2026-02-20       |   48 |     0 |        0 |
 | 2026-02-21       |   48 |     0 |        0 |
 | 2026-02-22       |   48 |     0 |        0 |
 | 2026-02-23       |   48 |     0 |        0 |
-| 2026-02-24       |   20 |     0 |        0 |
-| 2026-03-01       |   12 |    13 |       16 |
-| 2026-03-02       |    9 |     9 |        9 |
-| 2026-03-20       |    0 |     0 |        7 |
-| 2026-03-21       |    0 |     0 |       11 |
-| 2026-03-22       |    0 |     0 |       10 |
-| 2026-03-23       |    0 |     0 |        9 |
+| 2026-02-24       |   21 |     0 |        0 |
+| 2026-03-01       |   11 |    12 |       15 |
+| 2026-03-02       |   10 |    10 |       10 |
+| 2026-03-20       |    0 |     0 |        6 |
+| 2026-03-21       |    0 |     0 |       12 |
+| 2026-03-22       |    0 |     0 |        9 |
+| 2026-03-23       |    0 |     0 |       10 |
 
 
 The missing values are not random but concentrated on just two stations.
@@ -92,17 +101,26 @@ Given that this was time-series data, I decided to use a Forward Fill method to 
 
 
 
+Minimal Impact: I compared the average fuel prices with and without Forward Fill. The deviations were small but negligible when looking at all gas stations. If these gas stations will be in the top cheapest/most expensive gas stations, we will have to take a closer look.
 
-
-Minimal Impact: I compared the average fuel prices with and without Forward Fill. The deviations were negligible:
-
+Comparison of avg. prices MTS Waschpark:
 |        |   With NaN (ignored) |   With Forward Fill |   Deviation (%) |
 |:-------|---------------------:|--------------------:|----------------:|
 | e5     |               1.8951 |              1.8937 |           -0.07 |
 | e10    |               1.8353 |              1.8337 |           -0.09 |
 | diesel |               1.9037 |              1.9067 |            0.16 |
 
-The deviations are well below 1%, confirming that Forward Fill does not significantly distort the results.
+Comparison of avg. prices Access Station Stuttgart:
+|        |   With NaN (ignored) |   With Forward Fill |   Deviation (%) |
+|:-------|---------------------:|--------------------:|----------------:|
+| e5     |               1.9585 |              1.9271 |            -1.6 |
+| e10    |               1.8704 |              1.8704 |             0   |
+| diesel |               1.9983 |              1.9983 |             0   |
+
+
+
+
+
 
 Geographical Data
 
@@ -192,7 +210,8 @@ It will be the cheapest at around 12:00 and in the evening at around 20:00.
 
 <img src="assets/avg_price_over_day_complete.png" width="1200" height="400"/>
 
-It is noticeable that the price is constanly going up and down, creating a local minimum and maximum every full hour. To make sure this is nto a error in the data or API call, I looked at 3 diffrent gas stations and their average price of E5 over the course of a day. 
+It is noticeable that the price is constanly going up and down, creating a local minimum and maximum every full hour. To make sure this is nto a error in the data or API call, I looked at 3 different gas stations and their average price of E5 over the course of a day. 
+
 
 <img src="assets/avg_price_3stationsover_day_complete.png" width="1200" height="400"/>
 
