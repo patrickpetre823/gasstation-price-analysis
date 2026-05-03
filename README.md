@@ -220,7 +220,7 @@ When comparing the average prices throughout all gasstations on 7:30 and 12:00 o
 | retrieval_date   |   diesel_pct |   e5_pct |   e10_pct |
 |:-----------------|-------------:|---------:|----------:|
 | 2026-02-16       |       -8.367 |   -6.904 |    -7.029 |
-| 2026-02-17       |       -8.126 |   -6.93  |    -7.098 |
+| 2026-02-17       |       -8.126 |   -6.93  |    -7.098 |<img src="assets/gasstation_comparisoin_e5.png" width="1200" height="400"/>
 | 2026-02-18       |       -8.842 |   -7.642 |    -7.785 |
 | 2026-02-19       |       -7.929 |   -7.296 |    -7.523 |
 | 2026-02-20       |       -7.868 |   -7.028 |    -7.121 |
@@ -248,6 +248,6 @@ When comparing the average prices throughout all gasstations on 7:30 and 12:00 o
 We already analysed the difference in gas prices on different weekdays and different times of the day. However, different gas stations have different prices.
 
 
-<img src="assets/gasstation_comparisoin_e5.png" width="1200" height="400"/>
+<img src="assets/gasstation_comparison_e5.png" width="1200" height="400"/>
 
-<img src="assets/gasstation_comparisoin_diesel.png" width="1200" height="400"/>
+<img src="assets/gasstation_comparison_diesel.png" width="1200" height="400"/>
