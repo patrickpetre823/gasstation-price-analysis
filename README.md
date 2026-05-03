@@ -243,4 +243,11 @@ When comparing the average prices throughout all gasstations on 7:30 and 12:00 o
 |E5:          | -5.48%                          |
 |E10:         | -5.62%                          |
 
+### Gasstation
 
+We already analysed the difference in gas prices on different weekdays and different times of the day. However, different gas stations have different prices.
+
+
+<img src="assets/gasstation_comparisoin_e5.png" width="1200" height="400"/>
+
+<img src="assets/gasstation_comparisoin_diesel.png" width="1200" height="400"/>
