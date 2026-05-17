@@ -245,7 +245,10 @@ When comparing the average prices throughout all gasstations on 7:30 and 12:00 o
 
 ## Correlation
 
-We can check correlation in our data. For this I calculated the avg. price of fuel for each datapoint, resulting in an avg. price for each timestamp and gasstation. We see that the weekday almost has no influence on the price and the time of the day just a tiny bit with -0.09. 
+We can check correlation in our data. For this I calculated the avg. price of fuel for each datapoint, resulting in an avg. price for each timestamp and gasstation. We see that the weekday almost has no influence on the price and the time of the day just a tiny bit with -0.09. Of course there is no linear correlation, like we saw above, when checking the avg. price over a whole day.
+
+However we see that that we have a correlation between the average price and a specific gas station name.
+
 <img src="assets/Korrelationsmatrix.png" width="1200" height="400"/>
 
 
@@ -258,4 +261,14 @@ We already analysed the difference in gas prices on different weekdays and diffe
 
 <img src="assets/gasstation_comparison_diesel.png" width="1200" height="400"/>
 
+
+# Calculation
+
+The average german drives 
+
+The average car consumes x diesel and x in euro. 
+https://www.destatis.de/DE/Themen/Gesellschaft-Umwelt/Umwelt/UGR/verkehr-tourismus/Tabellen/fahrleistungen-kraftstoffverbrauch.html
+
+
+https://www.destatis.de/DE/Themen/Arbeit/Arbeitsmarkt/Erwerbstaetigkeit/Tabellen/pendler1.html
 
