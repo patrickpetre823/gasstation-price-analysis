@@ -243,6 +243,12 @@ When comparing the average prices throughout all gasstations on 7:30 and 12:00 o
 |E5:          | -5.48%                          |
 |E10:         | -5.62%                          |
 
+## Correlation
+
+We can check correlation in our data. For this I calculated the avg. price of fuel for each datapoint, resulting in an avg. price for each timestamp and gasstation. We see that the weekday almost has no influence on the price and the time of the day just a tiny bit with -0.09. 
+<img src="assets/Korrelationsmatrix.png" width="1200" height="400"/>
+
+
 ### Gasstation
 
 We already analysed the difference in gas prices on different weekdays and different times of the day. However, different gas stations have different prices.
@@ -251,3 +257,5 @@ We already analysed the difference in gas prices on different weekdays and diffe
 <img src="assets/gasstation_comparison_e5.png" width="1200" height="400"/>
 
 <img src="assets/gasstation_comparison_diesel.png" width="1200" height="400"/>
+
+
