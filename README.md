@@ -249,7 +249,7 @@ We can check correlation in our data. For this I calculated the avg. price of fu
 
 However we see that that we have a correlation between the average price and a specific gas station name.
 
-<img src="assets/korrelationsmatrix.png" width="1200" height="400"/>
+<img src="assets/korrelationsmatrix.png" width="1200" height="1200"/>
 
 
 ### Gasstation
