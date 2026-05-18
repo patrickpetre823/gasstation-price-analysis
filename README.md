@@ -185,9 +185,9 @@ If we look at the average price of fuel per weekday we will get a diagramm that 
 
 <img src="assets/preisprowochentag.png" width="1200" height="400"/>
 
-If we look at the relative change compared to the average price, we see that the price of fuel is the cheapest on Sunday and Monday and the msot expensive on thursday. 
+If we look at the relative change compared to the average price, we see that the price of fuel is the cheapest on Sunday and Monday and the msot expensive on Thursday. 
 
-Howeber we should look at this later on in more detail as to find out whether just the average price is the lowest/highest on those days or they really have the cheapest or most expensive prices per week.
+However we should look at this later on in more detail as to find out whether just the average price is the lowest/highest on those days or they really have the cheapest or most expensive prices per week.
 
 <img src="assets/preisprowochentagprozent.png" width="1200" height="400"/>
 
