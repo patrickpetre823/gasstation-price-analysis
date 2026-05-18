@@ -249,7 +249,7 @@ We can check correlation in our data. For this I calculated the avg. price of fu
 
 However we see that that we have a correlation between the average price and a specific gas station name.
 
-<img src="assets/Korrelationsmatrix.png" width="1200" height="400"/>
+<img src="assets/korrelationsmatrix.png" width="1200" height="400"/>
 
 
 ### Gasstation
@@ -260,6 +260,11 @@ We already analysed the difference in gas prices on different weekdays and diffe
 <img src="assets/gasstation_comparison_e5.png" width="1200" height="400"/>
 
 <img src="assets/gasstation_comparison_diesel.png" width="1200" height="400"/>
+
+
+If wee look at the average fuel price for each gasstation we can compare gasstations with the lowest average price to gassstations with the highest average price.
+
+
 
 
 # Calculation
