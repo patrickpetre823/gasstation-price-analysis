@@ -259,7 +259,25 @@ We already analysed the difference in gas prices on different weekdays and diffe
 
 <img src="assets/gasstation_comparison_e5.png" width="1200" height="400"/>
 
-<img src="assets/gasstation_comparison_diesel.png" width="1200" height="400"/>
+| Category     | Gas station                                                |   Ø E5 07:30 |   Ø E5 12:00 |   Ø E5 20:00 |   Differenz (%) 12:00 |   Differenz (%) 20:00 |
+|:-------------|:-----------------------------------------------------------|-------------:|-------------:|-------------:|----------------------:|----------------------:|
+|              | MTS Waschpark - Weilstrasse                                |        1.897 |        1.894 |        1.889 |                -0.158 |                -0.422 |
+|              | Access Station Stuttgart - Seerosenstr.                    |        2     |        1.907 |        1.917 |                -4.65  |                -4.15  |
+| Cheapest 5   | ORLEN Express Tankstelle - Augsburger Str.                 |        2     |        1.896 |        1.897 |                -5.2   |                -5.15  |
+|              | SCHARR-Tankstelle - Handwerkstrasse                        |        2.007 |        1.9   |        1.899 |                -5.331 |                -5.381 |
+|              | Supermarkt-Tankstelle ESSLINGEN WANNENRAIN 30 - WANNENRAIN |        2.01  |        1.902 |        1.901 |                -5.373 |                -5.423 |
+|:-------------|-----------------------------------------------------------:|-------------:|-------------:|-------------:|----------------------:|----------------------:|
+|              | Vogel-Garagen - Salzburger Straße                          |        2.045 |        2.031 |        2.019 |                -0.685 |                -1.271 |
+|              | Aral Tankstelle - Cannstatter Straße                       |        2.064 |        1.952 |        1.953 |                -5.426 |                -5.378 |
+| Most         | Aral Tankstelle - Heilbronner Straße                       |        2.069 |        1.954 |        1.952 |                -5.558 |                -5.655 |
+| Expensive 5  | Aral Tankstelle - Pragstraße                               |        2.072 |        1.975 |        1.954 |                -4.681 |                -5.695 |
+|              | Aral Tankstelle - Wiener Straße                            |        2.072 |        1.954 |        1.952 |                -5.695 |                -5.792 |
+
+Average per category
+| Category     |   Ø E5 07:30 |   Ø E5 12:00 |   Ø E5 20:00 |  Difference (%) 12:00 |  Difference (%) 20:00 |
+|:-------------|-------------:|-------------:|-------------:|----------------------:|----------------------:|
+| expensive 5  |        1.983 |        1.9   |        1.901 |                -4.142 |                -4.105 |
+| cheapest 5   |        2.064 |        1.973 |        1.966 |                -4.409 |                -4.758 |
 
 
 If wee look at the average fuel price for each gasstation we can compare gasstations with the lowest average price to gassstations with the highest average price.
