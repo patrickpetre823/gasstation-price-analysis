@@ -280,7 +280,7 @@ Average per category
 | expensive 5  |        2.064 |        1.973 |        1.966 |                -4.409 |                -4.758 |
 
 
-If wee look at the average fuel price for each gasstation we can compare gasstations with the lowest average price to gassstations with the highest average price.
+If we compare the cheapest time (12:00) at the cheapest 5 gas station, to the most expensive time /7:30) of the most expensive 5 gas stations, there is a 7,95 % possible saving. 
 
 
 
