@@ -276,8 +276,8 @@ We already analysed the difference in gas prices on different weekdays and diffe
 Average per category
 | Category     |   Ø E5 07:30 |   Ø E5 12:00 |   Ø E5 20:00 |  Difference (%) 12:00 |  Difference (%) 20:00 |
 |:-------------|-------------:|-------------:|-------------:|----------------------:|----------------------:|
-| expensive 5  |        1.983 |        1.9   |        1.901 |                -4.142 |                -4.105 |
-| cheapest 5   |        2.064 |        1.973 |        1.966 |                -4.409 |                -4.758 |
+| cheapest 5   |        1.983 |        1.9   |        1.901 |                -4.142 |                -4.105 |
+| expensive 5  |        2.064 |        1.973 |        1.966 |                -4.409 |                -4.758 |
 
 
 If wee look at the average fuel price for each gasstation we can compare gasstations with the lowest average price to gassstations with the highest average price.
