@@ -266,7 +266,7 @@ We already analysed the difference in gas prices on different weekdays and diffe
 | Cheapest 5   | ORLEN Express Tankstelle - Augsburger Str.                 |        2     |        1.896 |        1.897 |                -5.2   |                -5.15  |
 |              | SCHARR-Tankstelle - Handwerkstrasse                        |        2.007 |        1.9   |        1.899 |                -5.331 |                -5.381 |
 |              | Supermarkt-Tankstelle ESSLINGEN WANNENRAIN 30 - WANNENRAIN |        2.01  |        1.902 |        1.901 |                -5.373 |                -5.423 |
-|:-------------|-----------------------------------------------------------:|-------------:|-------------:|-------------:|----------------------:|----------------------:|
+|--------------|------------------------------------------------------------|--------------|--------------|--------------|-----------------------|-----------------------|
 |              | Vogel-Garagen - Salzburger Straße                          |        2.045 |        2.031 |        2.019 |                -0.685 |                -1.271 |
 |              | Aral Tankstelle - Cannstatter Straße                       |        2.064 |        1.952 |        1.953 |                -5.426 |                -5.378 |
 | Most         | Aral Tankstelle - Heilbronner Straße                       |        2.069 |        1.954 |        1.952 |                -5.558 |                -5.655 |
